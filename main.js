@@ -2,7 +2,9 @@
 console.log("main.js loaded!");
 
 // TODO: create a loop
-for(var i =0;i<5;i++){
-    console.log("i: " + i);
+var i = 0;
+while(i<5){
+    console.log("i: " +i);
+    i++;
 }
-console.log("loop edded");
+console.log("comleted");
